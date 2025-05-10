@@ -30,7 +30,7 @@ headers = {
     'sec-gpc': '1',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
 }
-data = '{"redirect":"/","for_pub":"","email":"chaitanyajobanputra2@gmail.com","password":"RivanSolutions","captcha_response":null}'
+data = '{"redirect":"/","for_pub":"","email":"hidden","password":"hidden","captcha_response":null}'
 
 with requests.Session() as session:
     response = session.post(url=URL, cookies=cookies, headers=headers)
